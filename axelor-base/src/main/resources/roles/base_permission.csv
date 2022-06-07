@@ -347,3 +347,4 @@
 "perm.base.PartnerCategory.rwcde";"com.axelor.apps.base.db.PartnerCategory";"x";"x";"x";"x";"x";;;"Base Manager"
 "perm.base.ICalendarUser.rwcde";"com.axelor.apps.base.db.ICalendarUser";"x";"x";"x";"x";"x";;;"Base Manager"
 "perm.base.CurrencyConversionLine.rwcde";"com.axelor.apps.base.db.CurrencyConversionLine";"x";"x";"x";"x";"x";;;"Base Manager"
+"perm.base.r";"com.axelor.apps.base.db.*";;;;;;;;"Base User"
