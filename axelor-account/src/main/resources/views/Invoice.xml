@@ -105,7 +105,11 @@
   </grid>
 
   <grid name="invoice-supplier-grid" title="Invoices"
-    model="com.axelor.apps.account.db.Invoice" orderBy="-invoiceDate">
+    model="com.axelor.apps.account.db.Invoice" orderBy="-invoiceDate" x-selector="checkbox">
+    <toolbar>
+      <button name="exportSuppInvoicesToPayBtn" title="Export Invoices"
+        onClick="account.root.payments.suppl.invoices.to.pay.export"/>
+    </toolbar>
     <menubar>
       <menu name="invoiceReportsMenu" title="Reports" icon="fa-files-o" showTitle="true">
         <item name="printInvoicesItem" title="Print invoices"
@@ -1851,7 +1855,12 @@ InvoiceSet.length > 0))"
     <context name="_showRecord" expr="eval: __this__.id"/>
     <context name="_xApplicationType" expr="eval: _model"/>
   </action-view>
-
+  <action-export name="account.root.payments.suppl.invoices.to.pay.export"
+    output="${date}${time}" download="true">
+    <export
+      name="SupplierInvoicesToPay-${__datetime__.format(java.time.format.DateTimeFormatter.ofPattern('ddMMyyyyHHmmSS'))}.csv"
+      template="data-export/export-supplier-invoices.csv" engine="groovy"/>
+  </action-export>
   <search-filters name="customer-invoices-filters"
     model="com.axelor.apps.account.db.Invoice" title="Customer invoices filters">
     <field name="company" hidden="true"
