@@ -1859,7 +1859,7 @@ InvoiceSet.length > 0))"
     output="${date}${time}" download="true">
     <export
       name="SupplierInvoicesToPay-${__datetime__.format(java.time.format.DateTimeFormatter.ofPattern('ddMMyyyyHHmmSS'))}.csv"
-      template="data-export/export-supplier-invoices.csv" engine="groovy"/>
+      template="data-export/export-supplier-invoices.tmpl" engine="groovy"/>
   </action-export>
   <search-filters name="customer-invoices-filters"
     model="com.axelor.apps.account.db.Invoice" title="Customer invoices filters">
