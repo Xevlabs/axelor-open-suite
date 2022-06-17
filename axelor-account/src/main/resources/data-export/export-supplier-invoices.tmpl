@@ -1,11 +1,12 @@
-"Invoice No.","Name","Supplier invoice number","Name/Company Name","Label","Origin date","Invoice Date","Due Date","Total W.T.","Total A.T.I.","Amount remaining","Name","Status","Status"
+"Numéro de facture","Nom","Numéro de facture fournisseur","Entreprise","Type","Date de l’ordre d’achat","Date de la facture","Date d’échéance","Total HT","Total TTC","Solde","Devise","Statut"
 <% __ids__.each({ invoicesToBePaid = com.axelor.inject.Beans.get('com.axelor.apps.account.db.repo.InvoiceManagementRepository' as Class).find(it)  
-	invoicesToExport = ""
+    invoicesToExport = ""
+    invoiceStatus_List = [1: "Brouillon", 2: "Validée", 3: "Ventilée" , 4: "Annulée"]
     invoicesToBePaid.each({
-    invoiceToExport -> 
-                invoicesToExport += """"${invoiceToExport.invoiceId}","${invoiceToExport.company.name}","${invoiceToExport.supplierInvoiceNb}","${invoiceToExport.partner.name}","${invoiceToExport.paymentMode.name}","${invoiceToExport.originDate}","${invoiceToExport.invoiceDate}","${invoiceToExport.dueDate}","${invoiceToExport.exTaxTotal}","${invoiceToExport.inTaxTotal}","${invoiceToExport.amountRemaining}","${invoiceToExport.currency.name}","${invoiceToExport.statusSelect}","${invoiceToExport.pfpValidateStatusSelect}"\n"""
-	})
+        invoiceToExport -> 
+            invoicesToExport += """"${invoiceToExport.invoiceId}","${invoiceToExport.company.name}","${invoiceToExport.supplierInvoiceNb}","${invoiceToExport.partner.name}","${invoiceToExport.paymentMode.name}","${invoiceToExport.originDate}","${invoiceToExport.invoiceDate}","${invoiceToExport.dueDate}","${invoiceToExport.exTaxTotal}","${invoiceToExport.inTaxTotal}","${invoiceToExport.amountRemaining}","${invoiceToExport.currency.name}","${invoiceStatus_List[invoiceToExport.statusSelect]}"\n"""
+    })
 
-	out <<
+    out <<
     """$invoicesToExport"""
 }) %>
