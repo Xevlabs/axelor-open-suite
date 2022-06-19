@@ -1,0 +1,220 @@
+importId;partnerTypeSelect;isContact;isCustomer;isSupplier;isEmployee;isFactor;name;firstName;titleSelect;languageCode;address;email;fixedPhone;mobilePhone;invoiceSendingFormatSelect;inPaymentMode.importId;outPaymentMode.importId;paymentCondition.importId;partnerCategory.code;currency.code;blocking.importId;rejectCounter;companySet_importId;customerAccount_code;supplierAccount_code;mainPartner_importId;customerTypeSelect;supplierTypeSelect;industrySector.importId;user.importId;team.importId;source.id;fiscalPosition.importId;picture_fileName;invoicesCopySelect;factorizedCustomer;companyID
+1;1;false;true;true;false;false;DALBE;;1;fr;90000;contact@dalbe.fr;02.33.81.16.55;;emailpaper;;;6;SME;EUR;;;1;4110;4010;;1;1;;;;;;img//partner/90000_128px.png;2;30825583500057;1
+2;1;false;false;true;false;false;MOLOTOW FEURSTEIN GMBH;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MOLOTOW FEURSTEIN GMBH";;3;1;;;;;;;;;1
+3;1;false;false;true;false;false;CANSON;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CANSON";;3;1;;;;;;;;;1
+4;1;false;false;true;false;false;FABER-CASTELL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_FABER-CASTELL";;3;1;;;;;;;;;1
+5;1;false;false;true;false;false;PRINCE AUGUST;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_PRINCE AUGUST";;3;1;;;;;;;;;1
+6;1;false;false;true;false;false;L'ATELIER DU TOTE BAG;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_L'ATELIER DU TOTE BAG";;3;1;;;;;;;;;1
+7;1;false;false;true;false;false;SAS MILHE ET AVONS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SAS MILHE ET AVONS";;3;1;;;;;;;;;1
+8;1;false;false;true;false;false;VETEMENT-PUBLICITAIRE.COM;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_VETEMENT-PUBLICITAIRE.COM";;3;1;;;;;;;;;1
+9;1;false;false;true;false;false;ASSOUN DISTRIBUTION;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ASSOUN DISTRIBUTION";;3;1;;;;;;;;;1
+10;1;false;false;true;false;false;SAUER;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SAUER";;3;1;;;;;;;;;1
+11;1;false;false;true;false;false;ALFI JULLIAN SA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ALFI JULLIAN SA";;3;1;;;;;;;;;1
+12;1;false;false;true;false;false;HL DISPLAY;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_HL DISPLAY";;3;1;;;;;;;;;1
+13;1;false;false;true;false;false;COLART FRANCE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_COLART FRANCE";;3;1;;;;;;;;;1
+14;1;false;false;true;false;false;LE SCRIPT;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_LE SCRIPT";;3;1;;;;;;;;;1
+15;1;false;false;true;false;false;SAEP;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SAEP";;3;1;;;;;;;;;1
+16;1;false;false;true;false;false;DILISCO;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_DILISCO";;3;1;;;;;;;;;1
+17;1;false;false;true;false;false;EDITIONS CARPENTIER;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_EDITIONS CARPENTIER";;3;1;;;;;;;;;1
+18;1;false;false;true;false;false;EDITIONS MILA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_EDITIONS MILA";;3;1;;;;;;;;;1
+19;1;false;false;true;false;false;MILLEPAGES;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MILLEPAGES";;3;1;;;;;;;;;1
+20;1;false;false;true;false;false;GRAINE CREATIVE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_GRAINE CREATIVE";;3;1;;;;;;;;;1
+21;1;false;false;true;false;false;SODIS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SODIS";;3;1;;;;;;;;;1
+22;1;false;false;true;false;false;FLAMMARION SA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_FLAMMARION SA";;3;1;;;;;;;;;1
+23;1;false;false;true;false;false;CLEOPATRE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CLEOPATRE";;3;1;;;;;;;;;1
+24;1;false;false;true;false;false;DAUDIN DISTRIBUTION;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_DAUDIN DISTRIBUTION";;3;1;;;;;;;;;1
+25;1;false;false;true;false;false;NEVA EDITIONS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_NEVA EDITIONS";;3;1;;;;;;;;;1
+26;1;false;false;true;false;false;INTERFORUM;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_INTERFORUM";;3;1;;;;;;;;;1
+27;1;false;false;true;false;false;OZ INTERNATIONAL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_OZ INTERNATIONAL";;3;1;;;;;;;;;1
+28;1;false;false;true;false;false;ARTIST ART MATERIALS SA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ARTIST ART MATERIALS SA";;3;1;;;;;;;;;1
+29;1;false;false;true;false;false;SEMA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SEMA";;3;1;;;;;;;;;1
+30;1;false;false;true;false;false;CHAMPAGNE DESSIN SEMD;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CHAMPAGNE DESSIN SEMD";;3;1;;;;;;;;;1
+31;1;false;false;true;false;false;STAEDTLER FRANCE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_STAEDTLER FRANCE";;3;1;;;;;;;;;1
+32;1;false;false;true;false;false;MIRKENTA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MIRKENTA";;3;1;;;;;;;;;1
+33;1;false;false;true;false;false;JPC CREATIONS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_JPC CREATIONS";;3;1;;;;;;;;;1
+34;1;false;false;true;false;false;MINERVA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MINERVA";;3;1;;;;;;;;;1
+35;1;false;false;true;false;false;LENIAR SP.Z.O.O.;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_LENIAR SP.Z.O.O.";;3;1;;;;;;;;;1
+36;1;false;false;true;false;false;CORECTOR;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CORECTOR";;3;1;;;;;;;;;1
+37;1;false;false;true;false;false;MÖBIUS&RUPPERT GMBH & CO. KG;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MÖBIUS&RUPPERT GMBH & CO. KG";;3;1;;;;;;;;;1
+38;1;false;false;true;false;false;NWL FRANCE SAS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_NWL FRANCE SAS";;3;1;;;;;;;;;1
+39;1;false;false;true;false;false;CONDA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CONDA";;3;1;;;;;;;;;1
+40;1;false;false;true;false;false;FACOM STANLEY BLACK&DECKER;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_FACOM STANLEY BLACK&DECKER";;3;1;;;;;;;;;1
+41;1;false;false;true;false;false;PROCURA KTC SPRL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_PROCURA KTC SPRL";;3;1;;;;;;;;;1
+42;1;false;false;true;false;false;FEKU FRANCE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_FEKU FRANCE";;3;1;;;;;;;;;1
+43;1;false;false;true;false;false;COLOURSTOCK;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_COLOURSTOCK";;3;1;;;;;;;;;1
+44;1;false;false;true;false;false;HAMELIN SAS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_HAMELIN SAS";;3;1;;;;;;;;;1
+45;1;false;false;true;false;false;DAYLIGHT COMPANY LTD;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_DAYLIGHT COMPANY LTD";;3;1;;;;;;;;;1
+46;1;false;false;true;false;false;MAJUSCULE M.D.S.;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MAJUSCULE M.D.S.";;3;1;;;;;;;;;1
+47;1;false;false;true;false;false;EXERTIS FRANCE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_EXERTIS FRANCE";;3;1;;;;;;;;;1
+48;1;false;false;true;false;false;PEBEO   FRANCE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_PEBEO   FRANCE";;3;1;;;;;;;;;1
+49;1;false;false;true;false;false;LA FRANÇAISE DES COULEURS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_LA FRANÇAISE DES COULEURS";;3;1;;;;;;;;;1
+50;1;false;false;true;false;false;LESA FRANCE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_LESA FRANCE";;3;1;;;;;;;;;1
+51;1;false;false;true;false;false;PEBARO PETER BAUSCH GMBH&CO;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_PEBARO PETER BAUSCH GMBH&CO";;3;1;;;;;;;;;1
+52;1;false;false;true;false;false;STABILO FRANCE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_STABILO FRANCE";;3;1;;;;;;;;;1
+53;1;false;false;true;false;false;LOOMIS ART STORE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_LOOMIS ART STORE";;3;1;;;;;;;;;1
+54;1;false;false;true;false;false;SESAME;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SESAME";;3;1;;;;;;;;;1
+55;1;false;false;true;false;false;NIELSEN DESIGN;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_NIELSEN DESIGN";;3;1;;;;;;;;;1
+56;1;false;false;true;false;false;"CROCHET ""X"" AFTC°";;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CROCHET ""X"" AFTC°";;3;1;;;;;;;;;1
+57;1;false;false;true;false;false;3M FRANCE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_3M FRANCE";;3;1;;;;;;;;;1
+58;1;false;false;true;false;false;OCAI;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_OCAI";;3;1;;;;;;;;;1
+59;1;false;false;true;false;false;BOUTIQUE DE L'ENCADREMENT;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_BOUTIQUE DE L'ENCADREMENT";;3;1;;;;;;;;;1
+60;1;false;false;true;false;false;VUE SUR CADRE SARL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_VUE SUR CADRE SARL";;3;1;;;;;;;;;1
+61;1;false;false;true;false;false;DALBE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_DALBE";;3;1;;;;;;;;;1
+62;1;false;false;true;false;false;CT MAGNET (MAGNETDECO);;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CT MAGNET (MAGNETDECO)";;3;1;;;;;;;;;1
+63;1;false;false;true;false;false;CARPENTRAS DONARIER;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CARPENTRAS DONARIER";;3;1;;;;;;;;;1
+64;1;false;false;true;false;false;BULLIER SAS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_BULLIER SAS";;3;1;;;;;;;;;1
+65;1;false;false;true;false;false;VIVA DECOR;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_VIVA DECOR";;3;1;;;;;;;;;1
+66;1;false;false;true;false;false;ECLAT DE VERRE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ECLAT DE VERRE";;3;1;;;;;;;;;1
+67;1;false;false;true;false;false;AMILLO;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_AMILLO";;3;1;;;;;;;;;1
+68;1;false;false;true;false;false;PINCON SENELAR;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_PINCON SENELAR";;3;1;;;;;;;;;1
+69;1;false;false;true;false;false;ARTEMIO;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ARTEMIO";;3;1;;;;;;;;;1
+70;1;false;false;true;false;false;ADVEO FRANCE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ADVEO FRANCE";;3;1;;;;;;;;;1
+71;1;false;false;true;false;false;CLAIREFONTAINE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CLAIREFONTAINE";;3;1;;;;;;;;;1
+72;1;false;false;true;false;false;DALLAITI;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_DALLAITI";;3;1;;;;;;;;;1
+73;1;false;false;true;false;false;CARAN D'ACHE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CARAN D'ACHE";;3;1;;;;;;;;;1
+74;1;false;false;true;false;false;MUNGYO KYOJAI CO.;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MUNGYO KYOJAI CO.";;3;1;;;;;;;;;1
+75;1;false;false;true;false;false;APLI SAS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_APLI SAS";;3;1;;;;;;;;;1
+76;1;false;false;true;false;false;TALENS FRANCE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_TALENS FRANCE";;3;1;;;;;;;;;1
+77;1;false;false;true;false;false;H.SCHMINCKE & CO;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_H.SCHMINCKE & CO";;3;1;;;;;;;;;1
+78;1;false;false;true;false;false;P.H.COATE & SON;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_P.H.COATE & SON";;3;1;;;;;;;;;1
+79;1;false;false;true;false;false;GROUPE RIEM S.P.R.L;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_GROUPE RIEM S.P.R.L";;3;1;;;;;;;;;1
+80;1;false;false;true;false;false;LASCAUX COLOURS & RESTAURO;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_LASCAUX COLOURS & RESTAURO";;3;1;;;;;;;;;1
+81;1;false;false;true;false;false;ODIF;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ODIF";;3;1;;;;;;;;;1
+82;1;false;false;true;false;false;MAX KRESS GMBH;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MAX KRESS GMBH";;3;1;;;;;;;;;1
+83;1;false;false;true;false;false;NEVSKAYA PALITRA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_NEVSKAYA PALITRA";;3;1;;;;;;;;;1
+84;1;false;false;true;false;false;GUANGZOU MAGI-WAP CULTURE ART;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_GUANGZOU MAGI-WAP CULTURE ART";;3;1;;;;;;;;;1
+85;1;false;false;true;false;false;S.A PELIKAN;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_S.A PELIKAN";;3;1;;;;;;;;;1
+86;1;false;false;true;false;false;DAW FRANCE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_DAW FRANCE";;3;1;;;;;;;;;1
+87;1;false;false;true;false;false;DEFI SAS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_DEFI SAS";;3;1;;;;;;;;;1
+88;1;false;false;true;false;false;SOLARGIL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SOLARGIL";;3;1;;;;;;;;;1
+89;1;false;false;true;false;false;AERPANEL SAS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_AERPANEL SAS";;3;1;;;;;;;;;1
+90;1;false;false;true;false;false;CLIMAX;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CLIMAX";;3;1;;;;;;;;;1
+91;1;false;false;true;false;false;BAG&PACK;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_BAG&PACK";;3;1;;;;;;;;;1
+92;1;false;false;true;false;false;SALER;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SALER";;3;1;;;;;;;;;1
+93;1;false;false;true;false;false;ARTFIX;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ARTFIX";;3;1;;;;;;;;;1
+94;1;false;false;true;false;false;DEF;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_DEF";;3;1;;;;;;;;;1
+95;1;false;false;true;false;false;CHASSIS FRANCE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CHASSIS FRANCE";;3;1;;;;;;;;;1
+96;1;false;false;true;false;false;NOVUS DAHLE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_NOVUS DAHLE";;3;1;;;;;;;;;1
+97;1;false;false;true;false;false;CINTRE-A SARL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CINTRE-A SARL";;3;1;;;;;;;;;1
+98;1;false;false;true;false;false;P.W INTERNATIONAL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_P.W INTERNATIONAL";;3;1;;;;;;;;;1
+99;1;false;false;true;false;false;BDF DOUINEAU;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_BDF DOUINEAU";;3;1;;;;;;;;;1
+100;1;false;false;true;false;false;GOMILLE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_GOMILLE";;3;1;;;;;;;;;1
+101;1;false;false;true;false;false;RICO TAP GMBH & CO.KG;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_RICO TAP GMBH & CO.KG";;3;1;;;;;;;;;1
+102;1;false;false;true;false;false;BI2L;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_BI2L";;3;1;;;;;;;;;1
+103;1;false;false;true;false;false;RAYHER HOBBY GMBH;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_RAYHER HOBBY GMBH";;3;1;;;;;;;;;1
+104;1;false;false;true;false;false;MAX BRINGMANN KG;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MAX BRINGMANN KG";;3;1;;;;;;;;;1
+105;1;false;false;true;false;false;OTHMAR DECORATIONS BV;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_OTHMAR DECORATIONS BV";;3;1;;;;;;;;;1
+106;1;false;false;true;false;false;CREATIV COMPANY;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CREATIV COMPANY";;3;1;;;;;;;;;1
+107;1;false;false;true;false;false;JOVI;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_JOVI";;3;1;;;;;;;;;1
+108;1;false;false;true;false;false;CORIADIS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CORIADIS";;3;1;;;;;;;;;1
+109;1;false;false;true;false;false;STUBAI;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_STUBAI";;3;1;;;;;;;;;1
+110;1;false;false;true;false;false;CAMBRIDGE TIME SPARES;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CAMBRIDGE TIME SPARES";;3;1;;;;;;;;;1
+111;1;false;false;true;false;false;THE CLAY AND PAINT FACTORY;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_THE CLAY AND PAINT FACTORY";;3;1;;;;;;;;;1
+112;1;false;false;true;false;false;ESPRIT COMPOSITE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ESPRIT COMPOSITE";;3;1;;;;;;;;;1
+113;1;false;false;true;false;false;GLOREX WANKE HOBBY TIME;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_GLOREX WANKE HOBBY TIME";;3;1;;;;;;;;;1
+114;1;false;false;true;false;false;TINTORETTO SRL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_TINTORETTO SRL";;3;1;;;;;;;;;1
+115;1;false;false;true;false;false;BOVELACCI;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_BOVELACCI";;3;1;;;;;;;;;1
+116;1;false;false;true;false;false;SENTOSPHERE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SENTOSPHERE";;3;1;;;;;;;;;1
+117;1;false;false;true;false;false;MARABU GMBH & CO.KG;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MARABU GMBH & CO.KG";;3;1;;;;;;;;;1
+118;1;false;false;true;false;false;HELLER;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_HELLER";;3;1;;;;;;;;;1
+119;1;false;false;true;false;false;POLYMETAAL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_POLYMETAAL";;3;1;;;;;;;;;1
+120;1;false;false;true;false;false;ABIG;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ABIG";;3;1;;;;;;;;;1
+121;1;false;false;true;false;false;REGAD & FILS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_REGAD & FILS";;3;1;;;;;;;;;1
+122;1;false;false;true;false;false;SPEEDBALL ART;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SPEEDBALL ART";;3;1;;;;;;;;;1
+123;1;false;false;true;false;false;AIR  LOISIRS MODELISME;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_AIR  LOISIRS MODELISME";;3;1;;;;;;;;;1
+124;1;false;false;true;false;false;PRAT FABRICATIONS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_PRAT FABRICATIONS";;3;1;;;;;;;;;1
+125;1;false;false;true;false;false;PENTEL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_PENTEL";;3;1;;;;;;;;;1
+126;1;false;false;true;false;false;P.DEBAR ARTS GRAPHIQUES;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_P.DEBAR ARTS GRAPHIQUES";;3;1;;;;;;;;;1
+127;1;false;false;true;false;false;ELBA MOULT;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ELBA MOULT";;3;1;;;;;;;;;1
+128;1;false;false;true;false;false;EXACOMPTA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_EXACOMPTA";;3;1;;;;;;;;;1
+129;1;false;false;true;false;false;SACFOM;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SACFOM";;3;1;;;;;;;;;1
+130;1;false;false;true;false;false;FEDRIGONI SPA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_FEDRIGONI SPA";;3;1;;;;;;;;;1
+131;1;false;false;true;false;false;UHU FRANCE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_UHU FRANCE";;3;1;;;;;;;;;1
+132;1;false;false;true;false;false;BREPOLS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_BREPOLS";;3;1;;;;;;;;;1
+133;1;false;false;true;false;false;DESERRES;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_DESERRES";;3;1;;;;;;;;;1
+134;1;false;false;true;false;false;QINGDAO ENGROSS STATIONERY;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_QINGDAO ENGROSS STATIONERY";;3;1;;;;;;;;;1
+135;1;false;false;true;false;false;TOMBOW EUROPE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_TOMBOW EUROPE";;3;1;;;;;;;;;1
+136;1;false;false;true;false;false;ISABEY;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ISABEY";;3;1;;;;;;;;;1
+137;1;false;false;true;false;false;FM BRUSH CO., LTD.;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_FM BRUSH CO., LTD.";;3;1;;;;;;;;;1
+138;1;false;false;true;false;false;PINSELFABRIK HANS P MAIER GMBH;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_PINSELFABRIK HANS P MAIER GMBH";;3;1;;;;;;;;;1
+139;1;false;false;true;false;false;DA VINCI  DEFET GMBH;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_DA VINCI  DEFET GMBH";;3;1;;;;;;;;;1
+140;1;false;false;true;false;false;MANET S.A.;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MANET S.A.";;3;1;;;;;;;;;1
+141;1;false;false;true;false;false;ROYAL BRUSH MANUFACTURING;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ROYAL BRUSH MANUFACTURING";;3;1;;;;;;;;;1
+142;1;false;false;true;false;false;BIC;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_BIC";;3;1;;;;;;;;;1
+143;1;false;false;true;false;false;DISTRIFIL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_DISTRIFIL";;3;1;;;;;;;;;1
+144;1;false;false;true;false;false;MAPED JOUSTRA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MAPED JOUSTRA";;3;1;;;;;;;;;1
+145;1;false;false;true;false;false;SODERTEX;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SODERTEX";;3;1;;;;;;;;;1
+146;1;false;false;true;false;false;ARTOS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ARTOS";;3;1;;;;;;;;;1
+147;1;false;false;true;false;false;LMH DIFFUSION;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_LMH DIFFUSION";;3;1;;;;;;;;;1
+148;1;false;false;true;false;false;FILMOLUX;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_FILMOLUX";;3;1;;;;;;;;;1
+149;1;false;false;true;false;false;HERMET;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_HERMET";;3;1;;;;;;;;;1
+150;1;false;false;true;false;false;ESSELTE SA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ESSELTE SA";;3;1;;;;;;;;;1
+151;1;false;false;true;false;false;MEERSEN MARSNA PAPER BV;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MEERSEN MARSNA PAPER BV";;3;1;;;;;;;;;1
+152;1;false;false;true;false;false;MOULIN DU COQ;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MOULIN DU COQ";;3;1;;;;;;;;;1
+153;1;false;false;true;false;false;MAY+SPIES GMBH+CO KG;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MAY+SPIES GMBH+CO KG";;3;1;;;;;;;;;1
+154;1;false;false;true;false;false;ART MATERIAL TRADE SA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ART MATERIAL TRADE SA";;3;1;;;;;;;;;1
+155;1;false;false;true;false;false;LA PLASTOSE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_LA PLASTOSE";;3;1;;;;;;;;;1
+156;1;false;false;true;false;false;ESPRIT PAPIER;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ESPRIT PAPIER";;3;1;;;;;;;;;1
+157;1;false;false;true;false;false;BASIC-GREY;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_BASIC-GREY";;3;1;;;;;;;;;1
+158;1;false;false;true;false;false;CRESTWOOD;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CRESTWOOD";;3;1;;;;;;;;;1
+159;1;false;false;true;false;false;K&COMPANY-LLC;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_K&COMPANY-LLC";;3;1;;;;;;;;;1
+160;1;false;false;true;false;false;ENVELOPRINT BV;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ENVELOPRINT BV";;3;1;;;;;;;;;1
+161;1;false;false;true;false;false;HEXAGONE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_HEXAGONE";;3;1;;;;;;;;;1
+162;1;false;false;true;false;false;WINTER & COMPANY;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_WINTER & COMPANY";;3;1;;;;;;;;;1
+163;1;false;false;true;false;false;MERLIN BOHEMIA WORK SRO;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MERLIN BOHEMIA WORK SRO";;3;1;;;;;;;;;1
+164;1;false;false;true;false;false;BOHLE AG;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_BOHLE AG";;3;1;;;;;;;;;1
+165;1;false;false;true;false;false;SATAB DECORATION;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SATAB DECORATION";;3;1;;;;;;;;;1
+166;1;false;false;true;false;false;ARTBIMEX FRANCE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ARTBIMEX FRANCE";;3;1;;;;;;;;;1
+167;1;false;false;true;false;false;EMAUX DE BRIARE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_EMAUX DE BRIARE";;3;1;;;;;;;;;1
+168;1;false;false;true;false;false;MOSAIKSTEIN GMBH;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MOSAIKSTEIN GMBH";;3;1;;;;;;;;;1
+169;1;false;false;true;false;false;CARPE DIEM EDITIONS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CARPE DIEM EDITIONS";;3;1;;;;;;;;;1
+170;1;false;false;true;false;false;GOODMARK EUROPE NV;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_GOODMARK EUROPE NV";;3;1;;;;;;;;;1
+171;1;false;false;true;false;false;DRAEGER LA CARTERIE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_DRAEGER LA CARTERIE";;3;1;;;;;;;;;1
+172;1;false;false;true;false;false;KD SERVICES;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_KD SERVICES";;3;1;;;;;;;;;1
+173;1;false;false;true;false;false;H&R THE-WIRE-MAN;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_H&R THE-WIRE-MAN";;3;1;;;;;;;;;1
+174;1;false;false;true;false;false;ALADINE S A;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ALADINE S A";;3;1;;;;;;;;;1
+175;1;false;false;true;false;false;BACOMA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_BACOMA";;3;1;;;;;;;;;1
+176;1;false;false;true;false;false;CHUN PAO ENTERPRISE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CHUN PAO ENTERPRISE";;3;1;;;;;;;;;1
+177;1;false;false;true;false;false;BRAUN+COMPANY GMBH;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_BRAUN+COMPANY GMBH";;3;1;;;;;;;;;1
+178;1;false;false;true;false;false;MELISSA&DOUG;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MELISSA&DOUG";;3;1;;;;;;;;;1
+179;1;false;false;true;false;false;MULTI-CRAFTS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MULTI-CRAFTS";;3;1;;;;;;;;;1
+180;1;false;false;true;false;false;EK SUCCESS LTD;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_EK SUCCESS LTD";;3;1;;;;;;;;;1
+181;1;false;false;true;false;false;CREATIVE HANDICRAFTS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CREATIVE HANDICRAFTS";;3;1;;;;;;;;;1
+182;1;false;false;true;false;false;SANDYLION;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SANDYLION";;3;1;;;;;;;;;1
+183;1;false;false;true;false;false;ANKERFJER APS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ANKERFJER APS";;3;1;;;;;;;;;1
+184;1;false;false;true;false;false;BERWICK;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_BERWICK";;3;1;;;;;;;;;1
+185;1;false;false;true;false;false;JAUNE CITRON SARL POPPIK;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_JAUNE CITRON SARL POPPIK";;3;1;;;;;;;;;1
+186;1;false;false;true;false;false;MAKO CREATIONS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MAKO CREATIONS";;3;1;;;;;;;;;1
+187;1;false;false;true;false;false;ESKOL ARENART, S.L.;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ESKOL ARENART, S.L.";;3;1;;;;;;;;;1
+188;1;false;false;true;false;false;DAM BVBA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_DAM BVBA";;3;1;;;;;;;;;1
+189;1;false;false;true;false;false;EVER SHINE HANDY CRAFT CO, LTD;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_EVER SHINE HANDY CRAFT CO, LTD";;3;1;;;;;;;;;1
+190;1;false;false;true;false;false;SMAC CORNICI;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SMAC CORNICI";;3;1;;;;;;;;;1
+191;1;false;false;true;false;false;MOLGRA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MOLGRA";;3;1;;;;;;;;;1
+192;1;false;false;true;false;false;BUBOLA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_BUBOLA";;3;1;;;;;;;;;1
+193;1;false;false;true;false;false;LAMA-LI;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_LAMA-LI";;3;1;;;;;;;;;1
+194;1;false;false;true;false;false;ACTALYS;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ACTALYS";;3;1;;;;;;;;;1
+195;1;false;false;true;false;false;WESTRET RETAIL CONTINENTAL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_WESTRET RETAIL CONTINENTAL";;3;1;;;;;;;;;1
+196;1;false;false;true;false;false;CENPAC IDF CENTRE NORMANDIE;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_CENPAC IDF CENTRE NORMANDIE";;3;1;;;;;;;;;1
+197;1;false;false;true;false;false;LEDIN;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_LEDIN";;3;1;;;;;;;;;1
+198;1;false;false;true;false;false;MOSAIC SERVICES;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MOSAIC SERVICES";;3;1;;;;;;;;;1
+199;1;false;false;true;false;false;IBERGUM SA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_IBERGUM SA";;3;1;;;;;;;;;1
+200;1;false;false;true;false;false;INEO PACK;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_INEO PACK";;3;1;;;;;;;;;1
+201;1;false;false;true;false;false;IN-PRINT;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_IN-PRINT";;3;1;;;;;;;;;1
+202;1;false;false;true;false;false;EURO BAGUETTES;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_EURO BAGUETTES";;3;1;;;;;;;;;1
+203;1;false;false;true;false;false;OPPBOGA BRUK AB;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_OPPBOGA BRUK AB";;3;1;;;;;;;;;1
+204;1;false;false;true;false;false;FGM;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_FGM";;3;1;;;;;;;;;1
+205;1;false;false;true;false;false;SEALOCK;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SEALOCK";;3;1;;;;;;;;;1
+206;1;false;false;true;false;false;ULGADORSARL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ULGADORSARL";;3;1;;;;;;;;;1
+207;1;false;false;true;false;false;GRANZO ET GRANZO STUDIO SRL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_GRANZO ET GRANZO STUDIO SRL";;3;1;;;;;;;;;1
+208;1;false;false;true;false;false;SALVADORI CORNICI SRL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SALVADORI CORNICI SRL";;3;1;;;;;;;;;1
+209;1;false;false;true;false;false;INTERMOL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_INTERMOL";;3;1;;;;;;;;;1
+210;1;false;false;true;false;false;SAS AED;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_SAS AED";;3;1;;;;;;;;;1
+211;1;false;false;true;false;false;ENRIQUE LOPEZ;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_ENRIQUE LOPEZ";;3;1;;;;;;;;;1
+212;1;false;false;true;false;false;FRANCISCO LLOP SA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_FRANCISCO LLOP SA";;3;1;;;;;;;;;1
+213;1;false;false;true;false;false;MONTXO;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MONTXO";;3;1;;;;;;;;;1
+214;1;false;false;true;false;false;RELMA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_RELMA";;3;1;;;;;;;;;1
+215;1;false;false;true;false;false;MODULRAS HERGON;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MODULRAS HERGON";;3;1;;;;;;;;;1
+216;1;false;false;true;false;false;GARCIA E HIJOS S.L.;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_GARCIA E HIJOS S.L.";;3;1;;;;;;;;;1
+217;1;false;false;true;false;false;BOLOGNI ARREDA;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_BOLOGNI ARREDA";;3;1;;;;;;;;;1
+218;1;false;false;true;false;false;MOLDUART HISPANAS SL;;1;fr;;;;;emailpaper;;;;WHSAL;EUR;;;1;4110;"4010_MOLDUART HISPANAS SL";;3;1;;;;;;;;;1
+219;1;false;true;false;false;false;DALBE BESANÇON;;1;fr;;;;;emailpaper;;;;ADHE;EUR;;;1;"4110_DALBE BESANÇON";4010;;3;1;;;;;;;;;1
