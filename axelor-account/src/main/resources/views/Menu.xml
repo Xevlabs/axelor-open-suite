@@ -75,8 +75,7 @@
   </action-view>
 
   <menuitem name="invoice-root-pfp-awaiting-pfp" title="awaitingPfpMenuTitle"
-    action="invoice.root.pfp.awaiting.pfp"
-    parent="invoice-root"
+    action="invoice.root.pfp.awaiting.pfp" parent="invoice-root"
     if="__config__.app.getApp('account').getActivatePassedForPayment() &amp;&amp; __user__.isSuperPfpUser"/>
 
   <action-view name="invoice.root.pfp.awaiting.pfp" title="awaitingPfpMenuTitle"
@@ -174,9 +173,8 @@
     <context name="_operationTypeSelect" expr="eval: 3"/>
   </action-view>
 
-  <menuitem name="account-root-payments-suppl-invoices-to-pay"
-    parent="account-root" title="Suppl. Invoices to pay"
-    action="account.root.payments.suppl.invoices.to.pay"/>
+  <menuitem name="account-root-payments-suppl-invoices-to-pay" parent="account-root"
+    title="Suppl. Invoices to pay" action="account.root.payments.suppl.invoices.to.pay"/>
 
   <action-view name="account.root.payments.suppl.invoices.to.pay"
     title="Suppl. Invoices to pay" model="com.axelor.apps.account.db.Invoice">
@@ -344,9 +342,8 @@
     <view-param name="search-filters" value="cheque-deposit-slip-filters"/>
   </action-view>
 
-  <menuitem name="account-root-accounting-accounting-reports"
-    parent="account-root" title="Documents comptables"
-    action="account.root.accounting.accounting.reports" icon="fa-book"/>
+  <menuitem name="account-root-accounting-accounting-reports" parent="account-root"
+    title="Documents comptables" action="account.root.accounting.accounting.reports" icon="fa-book"/>
 
   <action-view name="account.root.accounting.accounting.reports"
     title="Accounting reports" model="com.axelor.apps.account.db.AccountingReport">
@@ -503,8 +500,8 @@
     <domain>self.year.typeSelect = 1</domain>
   </action-view>
 
-  <menuitem name="account-conf-financial-journal" parent="account-root"
-    title="Journals" action="account.conf.financial.journal"/>
+  <menuitem name="account-conf-financial-journal" parent="account-root" title="Journals"
+    action="account.conf.financial.journal"/>
 
   <action-view name="account.conf.financial.journal" title="Journals"
     model="com.axelor.apps.account.db.Journal">
@@ -776,9 +773,8 @@
   <menuitem name="menu-account-invoice-advanced" parent="invoice-root-report"
     title="Advanced"/>
 
-  <menuitem name="menu-account-sale-invoice-advanced"
-    parent="invoice-root-report" title="Turnover"
-    action="account.sale.invoice.advanced.view"/>
+  <menuitem name="menu-account-sale-invoice-advanced" parent="invoice-root-report"
+    title="Turnover" action="account.sale.invoice.advanced.view"/>
 
   <action-view name="account.sale.invoice.advanced.view" title="Sale Invoices Details"
     model="com.axelor.apps.account.db.AssistantReportInvoice">
@@ -801,7 +797,7 @@
   </action-view>
 
 
-  <menuitem name="menu-accounting-dashboard-1" parent="account-root" 
+  <menuitem name="menu-accounting-dashboard-1" parent="account-root"
     title="Accounting reports" action="accounting.dashboard.view" icon="fa-bar-chart"/>
 
   <action-view name="accounting.dashboard.view" title="Accounting Details">
