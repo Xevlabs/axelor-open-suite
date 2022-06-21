@@ -196,17 +196,10 @@
     <bind to="companySet" search="self.importId = :companySet_importId"/>
 
     <!-- for account names with spaces inside -->
-    <bind to="accountingSituationList" search="self.company.importId = :companySet_importId"
-      if="companySet_importId != null">
-      <bind to="company" search="self.importId = :companySet_importId"/>
+    <bind to="accountingSituationList" search="self.company.importId = :companySet_importId">
       <bind to="supplierAccount" search="self.name = :name"/>
     </bind>
 
-    <!-- for account names without spaces inside -->
-    <bind to="accountingSituationList" search="self.company.importId = :companySet_importId"
-      if="companySet_importId != null">
-      <bind to="supplierAccount" search="self.code = :supplierAccount_code"/>
-    </bind>
 
     <bind column="email" to="email"/>
     <bind to="language" search="self.code = :languageCode"/>
@@ -229,11 +222,11 @@
     <bind to="toBeAdded" column="toBeAdded" eval="toBeAdded?.empty ? '1' : toBeAdded"/>
   </input>
 
+
   <input file="base_bankDetails.csv" separator=";" type="com.axelor.apps.base.db.BankDetails"
-    search="self.importId = :importId">
-    <bind to="partner" column="partner_importId" search="self.importId =:partner_importId"
-      update="true"/>
-    <bind to="isDefault" eval="true"/>
+    search="self.company.importId = :importId" update="true">
+    <bind to="company" search="self.importId = :importId"/>
+    <bind to="partner" search="self.importId = :partner_importId"/>
   </input>
 
   <input file="meta_schedule.csv" separator=";" type="com.axelor.meta.db.MetaSchedule"/>
@@ -286,5 +279,9 @@
     <bind to="rule" column="rule"/>
     <bind to="reportType" search="self.importId = :reportTypeId"/>
   </input>
+
+
+
+
 
 </csv-inputs>
