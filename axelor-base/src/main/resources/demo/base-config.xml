@@ -3,8 +3,6 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://axelor.com/xml/ns/data-import http://axelor.com/xml/ns/data-import/data-import_5.4.xsd">
 
-  <!-- IMPORT DU PACKAGE 'AUTH' -->
-
   <input file="auth_permission.csv" separator=";" type="com.axelor.auth.db.Permission"
     search="self.name = :name"/>
 
@@ -34,9 +32,6 @@
 
   <input file="meta_file.csv" separator=";" type="com.axelor.meta.db.MetaFile"
     search="self.fileName = :fileName"/>
-
-
-  <!-- IMPORT DU PACKAGE 'BASE' -->
 
   <input file="base_company.csv" separator=";" type="com.axelor.apps.base.db.Company"
     search="self.importId = :importId" call="com.axelor.csv.script.ImportCompany:importCompany"/>
@@ -116,8 +111,6 @@
   <input file="base_partnerCategory.csv" separator=";"
     type="com.axelor.apps.base.db.PartnerCategory" search="self.importId = :importId"/>
 
-
-
   <input file="base_duration.csv" separator=";" type="com.axelor.apps.base.db.Duration"
     search="self.importId = :importId"/>
 
@@ -155,19 +148,14 @@
 
     <bind to="companySet" search="self.importId = :companySet_importId"/>
 
-    <!-- mapping supplierAccount -->
     <bind to="accountingSituationList" search="self.company.importId = :companySet_importId">
       <bind to="supplierAccount" search="self.name = :name"/>
     </bind>
 
     <bind column="email" to="email"/>
     <bind to="language" search="self.code = :languageCode"/>
-
-
-
   </input>
 
-  <!-- A BESOIN DE PARTNER -->
   <input file="base_bank.csv" separator=";" type="com.axelor.apps.base.db.Bank"/>
 
   <input file="base_bankAddress.csv" separator=";" type="com.axelor.apps.base.db.BankAddress"
@@ -175,13 +163,6 @@
     <bind to="fullAddress"
       eval="call:com.axelor.apps.base.service.BankAddressService:computeFullAddress(null, address, null)"/>
   </input>
-
-
-
-  <!--<input file="base_bankDetails.csv" separator=";" type="com.axelor.apps.base.db.BankDetails" search="self.company.importId
-    = :importId"> <bind to="company" search="self.importId = :importId"/> <bind to="partner" search="self.importId
-    = :partner_importId"/> </input> -->
-
 
   <input file="base_company.csv" separator=";" type="com.axelor.apps.base.db.Company"
     search="self.importId = :importId" call="com.axelor.csv.script.ImportCompany:importCompany"/>
@@ -236,20 +217,10 @@
     <bind to="isShippingCostsProduct" column="isShippingCostsProduct"
       eval="isShippingCostsProduct ? isShippingCostsProduct : 'false'"/>
 
-
     <bind to="name" column="name"/>
     <bind to="code" column="code"/>
 
-
-    <!-- unit -->
-    <!--<bind to="name" column="name"/> -->
-
-
-
-
   </input>
-
-  <!-- Binding product with associated AcccountManagement reference -->
 
   <input file="base_product.csv" separator=";" type="com.axelor.apps.base.db.Product"
     search="self.importId = :importId" call="com.axelor.csv.script.ImportProduct:importProduct"
@@ -259,7 +230,6 @@
       if="importId != null">
       <bind to="product" search="self.importId = :importId"/>
     </bind>
-
 
   </input>
 
@@ -347,17 +317,6 @@
     <bind to="activeTaxLine" search="self.importId = :_activeTaxLine AND self.tax.code = :code"
       update="true"/>
   </input>
-
-  <!--<input file="account_accountManagement.csv" separator=";" type="com.axelor.apps.account.db.AccountManagement"
-    search="self.importId = :importId"> <bind search="self.importId = :company_id" to="company" update="true"/>
-    <bind search="self.code = :cashAccount_code and self.company.importId = :company_id" to="cashAccount"
-    update="true" if="cashAccount_code"/> <bind search="self.code = :saleAccount_code and self.company.importId
-    = :company_id" to="saleAccount" update="true" if="saleAccount_code"/> <bind search="self.code = :purchaseAccount_code
-    and self.company.importId = :company_id" to="purchaseAccount" update="true" if="purchaseAccount_code"/>
-    <bind search="self.importId = :sequence_importId and self.company.importId = :company_id" to="sequence"
-    update="true" if="sequence_importId"/> <bind search="self.importId = :journal_importId and self.company.importId
-    = :company_id" to="journal" update="true" if="journal_importId"/> <bind search="self.importId = :bankDetails_importId"
-    to="bankDetails" update="true" if="bankDetails_importId"/> </input> -->
 
   <input file="meta_metaTranslation.csv" separator=";"
     type="com.axelor.meta.db.MetaTranslation" search="self.key = :key AND self.language = :language"/>
