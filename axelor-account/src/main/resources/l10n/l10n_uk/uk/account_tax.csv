@@ -1,13 +1,19 @@
 "code";"name";"_activeTaxLine"
-"UK_SRT";"Standard rate purchase (20%)";1
-"UK_SRS_20";"Standard rate sale (20%)";2
-"UK_ZRP_EC";"Zero rated purchase from EC";3
-"UK_STC_EC";"Sales to customers in EC";4
-"UK_LRP";"Lower rate purchase (5%)";5
-"UK_SRP_EC";"Standard rated purchase from EC";6
-"UK_EP";"Exempt purchase";7
-"UK_SRP";"Standard rate purchase (17.5%)";8
-"UK_ZRP";"Zero rated purchase";9
-"UK_ES";"Exempt sale";10
-"UK_SRS_17";"Standard rate sale (17.5%)";11
-"UK_ZRS";"Zero rated sale";12
+"N_C";"TVA Coll. (V) taux normal";"11"
+"R1_C";"TVA Coll. (V) taux réduit 10%";"12"
+"R2_C";"TVA Coll. (V) taux réduit 5.5%";"3"
+"U_C";"TVA Coll. (V) taux ultra-réduit";"4"
+"X_C";"TVA Exonérée vente";"5"
+"UE_X_C";"TVA Exonérée (V) Livr. Intra. Com.";"15"
+"EXP_X_C";"TVA Exonérée (V) Export";"16"
+"N_D";"TVA Déd. (A) taux normal";"13"
+"R1_D";"TVA Déd. (A) taux réduit 10%";"14"
+"R2_D";"TVA Déd. (A) taux réduit 5.5%";"8"
+"U_D";"TVA Déd. (A) taux ultra-réduit";"9"
+"X_D";"TVA Exonérée achat";"10"
+"UE_N_D";"TVA Due Intracom. (A) tx normal";"18"
+"UE_R1_D";"TVA Due Intracom. (A) tx réduit 10%";"20"
+"UE_R2_D";"TVA Due Intracom. (A) tx réduit 5.5%";"21"
+"UE_U_D";"TVA Due Intracom. (A) tx ultra-réduit";"22"
+"UE_X_D";"TVA Exonérée Intracom. (A)";"23"
+"IMP_X_D";"TVA Exonérée (A) Import";"24"

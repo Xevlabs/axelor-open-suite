@@ -3,8 +3,6 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://axelor.com/xml/ns/data-import http://axelor.com/xml/ns/data-import/data-import_5.4.xsd">
 
-  <!-- IMPORT DU PACKAGE 'AUTH' -->
-
   <input file="auth_permission.csv" separator=";" type="com.axelor.auth.db.Permission"
     search="self.name = :name"/>
 
@@ -34,9 +32,6 @@
 
   <input file="meta_file.csv" separator=";" type="com.axelor.meta.db.MetaFile"
     search="self.fileName = :fileName"/>
-
-
-  <!-- IMPORT DU PACKAGE 'BASE' -->
 
   <input file="base_company.csv" separator=";" type="com.axelor.apps.base.db.Company"
     search="self.importId = :importId" call="com.axelor.csv.script.ImportCompany:importCompany"/>
@@ -121,12 +116,21 @@
 
   <input file="base_partner.csv" separator=";" type="com.axelor.apps.base.db.Partner"
     search="self.importId = :importId" call="com.axelor.csv.script.ImportPartner:importPartner">
+
+    <bind to="isContact" eval="isContact == 'true' ? true : false"/>
+    <bind to="isCustomer" eval="isCustomer == 'true' ? true : false"/>
+    <bind to="isSupplier" eval="isSupplier == 'true' ? true : false"/>
+    <bind to="language" search="self.code = :languageCode"/>
+
     <bind to="partnerSeq"
       eval="call:com.axelor.apps.base.service.administration.SequenceService:getSequenceNumber(com.axelor.apps.base.db.repo.SequenceRepository.PARTNER)"/>
+
     <bind to="emailAddress" if="email &amp;&amp; email.trim() != ''"
       search="self.partner.importId = :importId">
       <bind to="address" column="email"/>
+
     </bind>
+
     <bind to="partnerAddressList" search="self.address.importId = :address"
       if="address != null &amp;&amp; isContact == 'false'">
       <bind to="address" search="self.importId = :address" update="true"/>
@@ -134,27 +138,30 @@
       <bind to="isDeliveryAddr" eval="true"/>
       <bind to="isDefaultAddr" eval="true"/>
     </bind>
+
     <bind to="mainAddress" search="self.importId = :address"
       if="address != null &amp;&amp; isContact == 'true'" update="true"/>
     <bind to="inPaymentMode" column="inPaymentMode.importId" if="false"/>
     <bind to="outPaymentMode" column="outPaymentMode.importId" if="false"/>
     <bind to="paymentCondition" column="paymentCondition.importId" if="false"/>
+
+
+    <bind to="companySet" search="self.importId = :companySet_importId"/>
+
+    <bind to="accountingSituationList" search="self.company.importId = :companySet_importId">
+      <bind to="supplierAccount" search="self.name = :name"/>
+    </bind>
+
+    <bind column="email" to="email"/>
     <bind to="language" search="self.code = :languageCode"/>
   </input>
 
-  <!-- A BESOIN DE PARTNER -->
   <input file="base_bank.csv" separator=";" type="com.axelor.apps.base.db.Bank"/>
 
   <input file="base_bankAddress.csv" separator=";" type="com.axelor.apps.base.db.BankAddress"
     search="self.importId = :importId">
     <bind to="fullAddress"
       eval="call:com.axelor.apps.base.service.BankAddressService:computeFullAddress(null, address, null)"/>
-  </input>
-
-  <input file="base_bankDetails.csv" separator=";" type="com.axelor.apps.base.db.BankDetails">
-    <bind to="partner" column="partner_importId" search="self.importId =:partner_importId"
-      update="true"/>
-    <bind to="isDefault" eval="true"/>
   </input>
 
   <input file="base_company.csv" separator=";" type="com.axelor.apps.base.db.Company"
@@ -186,18 +193,44 @@
   <input file="base_productCategory.csv" separator=";"
     type="com.axelor.apps.base.db.ProductCategory" search="self.code = :code"/>
 
+
+
   <input file="base_product.csv" separator=";" type="com.axelor.apps.base.db.Product"
     search="self.importId = :importId" call="com.axelor.csv.script.ImportProduct:importProduct">
+
     <bind to="startDate" eval="call:com.axelor.csv.script.ImportDateTime:importDate(startDate)"
       column="startDate"/>
+
     <bind to="createdOn" eval="call:com.axelor.csv.script.ImportDateTime:importDate(startDate)"
       column="startDate"/>
+
     <bind to="netMass" eval="1" if="productTypeSelect == 'storable'"/>
+
     <bind to="grossMass" eval="1" if="productTypeSelect == 'storable'"/>
+
     <bind to="massUnit" search="self.labelToPrinting = 'kg'"
       if="productTypeSelect == 'storable'"/>
+
     <bind to="isShippingCostsProduct" column="isShippingCostsProduct"
       eval="isShippingCostsProduct ? isShippingCostsProduct : 'false'"/>
+
+    <bind to="isShippingCostsProduct" column="isShippingCostsProduct"
+      eval="isShippingCostsProduct ? isShippingCostsProduct : 'false'"/>
+
+    <bind to="name" column="name"/>
+    <bind to="code" column="code"/>
+
+  </input>
+
+  <input file="base_product.csv" separator=";" type="com.axelor.apps.base.db.Product"
+    search="self.importId = :importId" call="com.axelor.csv.script.ImportProduct:importProduct"
+    update="true">
+
+    <bind to="accountManagementList" search="self.product.importId = :importId"
+      if="importId != null">
+      <bind to="product" search="self.importId = :importId"/>
+    </bind>
+
   </input>
 
   <input file="base_productVariantAttr.csv" separator=";"
@@ -283,23 +316,6 @@
     type="com.axelor.apps.account.db.Tax">
     <bind to="activeTaxLine" search="self.importId = :_activeTaxLine AND self.tax.code = :code"
       update="true"/>
-  </input>
-
-  <input file="account_accountManagement.csv" separator=";"
-    type="com.axelor.apps.account.db.AccountManagement" search="self.importId = :importId">
-    <bind search="self.importId = :company_id" to="company" update="true"/>
-    <bind search="self.code = :cashAccount_code and self.company.importId = :company_id"
-      to="cashAccount" update="true" if="cashAccount_code"/>
-    <bind search="self.code = :saleAccount_code and self.company.importId = :company_id"
-      to="saleAccount" update="true" if="saleAccount_code"/>
-    <bind search="self.code = :purchaseAccount_code and self.company.importId = :company_id"
-      to="purchaseAccount" update="true" if="purchaseAccount_code"/>
-    <bind search="self.importId = :sequence_importId and self.company.importId = :company_id"
-      to="sequence" update="true" if="sequence_importId"/>
-    <bind search="self.importId = :journal_importId and self.company.importId = :company_id"
-      to="journal" update="true" if="journal_importId"/>
-    <bind search="self.importId = :bankDetails_importId" to="bankDetails" update="true"
-      if="bankDetails_importId"/>
   </input>
 
   <input file="meta_metaTranslation.csv" separator=";"

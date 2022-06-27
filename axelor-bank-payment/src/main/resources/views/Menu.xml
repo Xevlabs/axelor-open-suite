@@ -2,8 +2,8 @@
 <object-views xmlns="http://axelor.com/xml/ns/object-views"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://axelor.com/xml/ns/object-views http://axelor.com/xml/ns/object-views/object-views_5.4.xsd">
-  <menuitem name="account-bank-root" parent="account-root" title="Bank"
-    order="26" if="__config__.app.isApp('bank-payment')" icon="fa-building-columns"/>
+  <menuitem name="account-bank-root" parent="account-root" title="Bank" order="26"
+    if="__config__.app.isApp('bank-payment')" icon="fa-building-columns"/>
   <menuitem name="account-root-bank-orders" parent="account-bank-root" title="Bank Orders"
     order="26" if="__config__.app.isApp('bank-payment')"/>
 
