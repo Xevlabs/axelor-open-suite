@@ -1,3 +1,2 @@
 "importId";"partnerTypeSelect";"isContact";"isCustomer";"isSupplier";"isEmployee";"name";"firstName";"fullName";"titleSelect";"languageCode";"address";"email";"fixedPhone";"mobilePhone";"invoiceSendingFormatSelect";"paymentMode.importId";"paymentCondition.importId";"partnerCategory.code";"currency.code";"blockingList.importId";"rejectCounter";"companySet_importId";"customerAccount_code";"supplierAccount_code";"mainPartner_importId";"customerTypeSelect";"supplierTypeSelect";"industrySector.importId";"user.importId";"team.importId";"source.id";"fiscalPosition.importId";"picture_fileName";"invoicesCopySelect"
-8001;1;"false";"false";"false";"false";"DHL";;"DHL";;"fr";;;;;;;;;;;;1;;;;;;;;;;;;
-8002;1;"false";"false";"false";"false";"Hepner";;"Hepner";;"fr";;;;;;;;;;;;1;;;;;;;;;;;;
+8001;1;"false";"false";"false";"false";"Livraison fournisseur";;"Livraison fournisseur";;"fr";;;;;;;;;;;;1;;;;;;;;;;;;
